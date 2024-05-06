@@ -7,13 +7,36 @@
     <title>World Clock project</title>
   </head>
   <body>
-    <h1>World Clock</h1>
-    <footer>
-      <a href="https://github.com/analiviag/world-clock" target="_blank"
-        >Open source
-      </a>
-      code by Analivia Costa
-    </footer>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <div>
+        <select id="cities">
+          <option value="">Select a city</option>
+          <option value="paris">Paris</option>
+          <option value="london">London</option>
+          <option value="vancouver">Vancouver</option>
+        </select>
+      </div>
+
+      <div class="city">
+        <h2>Los Angeles</h2>
+        <div class="date">May 6th, 2024</div>
+        <div class="time">2:46 PM</div>
+      </div>
+      <div class="city">
+        <h2>New York</h2>
+        <div class="date">May 6th, 2024</div>
+        <div class="time">2:46 PM</div>
+      </div>
+
+      <footer>
+        <a href="https://github.com/analiviag/world-clock" target="_blank"
+          >Open source
+        </a>
+        code by Analivia Costa
+      </footer>
+    </div>
     <script src="javascript/index.js"></script>
   </body>
 </html>
