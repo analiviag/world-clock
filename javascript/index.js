@@ -33,6 +33,9 @@ function displayDateAndTime() {
 
 function showCity(event) {
   let citySelection = event.target.value;
+  if (citySelection === "current") {
+    citySelection = moment.tz.guess();
+  }
   let cityName = citySelection.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(citySelection);
   let citiesSelector = document.querySelector("#cities");
