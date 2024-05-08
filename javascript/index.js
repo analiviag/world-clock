@@ -49,6 +49,7 @@ function showCity(event) {
             "hh:mm:ss"
           )} <small>${cityTime.format("A")}</small></div>
         </div>
+        <a href="/">Homepage</a>
   `;
 }
 
