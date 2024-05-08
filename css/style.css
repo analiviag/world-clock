@@ -45,11 +45,17 @@ select {
 
 .time {
   font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+.time div {
+  width: 200px;
 }
 
 .time small {
   vertical-align: middle;
   font-size: 15px;
+  min-width: 15px;
 }
 
 .date {
